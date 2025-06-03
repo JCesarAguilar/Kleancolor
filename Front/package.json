@@ -1,0 +1,20 @@
+{
+  "name": "kleancolor",
+  "version": "1.0.0",
+  "description": "front kleancolor Peru",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server",
+    "build": "tailwindcss -i ./src/input.css -o ./src/output.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Julio Aguilar",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "tailwindcss": "^4.1.7"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.7"
+  }
+}
